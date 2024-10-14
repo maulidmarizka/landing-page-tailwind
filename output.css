@@ -1,0 +1,179 @@
+body {
+    font-family: "Afacad Flux", serif;
+    font-weight: 400;
+    background-color: white; /* Latar belakang untuk kontras */
+    font-family: Arial, sans-serif; /* Font yang digunakan */
+}
+
+.cropped-image {
+    position: relative;
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+    width: 100%; /* Sesuaikan sesuai kebutuhan */
+    height: auto; /* Menjaga rasio gambar */
+} 
+
+.content-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px; /* Bisa disesuaikan untuk memberi ruang dari bawah gambar */
+    text-align: center;
+}
+
+.content-wrapper p, .content-wrapper a {
+    color: rgb(255, 255, 255); /* Sesuaikan dengan warna teks jika dibutuhkan */
+}
+
+
+.content-wrapper p,
+.content-wrapper a {
+    margin-bottom: 20px; /* Jarak antar elemen sebesar 1cm */
+}
+
+.spaced-link {
+    display: block; /* Mengubah <a> menjadi block agar margin bisa bekerja */
+}
+
+.container {
+display: flex;
+flex-wrap: wrap; /* Membuat card dapat berada di baris baru */
+justify-content: center; /* Menempatkan card di tengah */
+margin: 20px; /* Jarak dari tepi */
+}
+
+.card {
+    background-color: white; /* Warna latar belakang card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+    margin: 10px; /* Jarak antar card */
+    overflow: hidden; /* Menghindari konten melampaui batas card */
+    width: 200px; /* Lebar card */
+    text-align: center; /* Teks di tengah */
+}
+
+.card-image {
+    width: 100%; /* Mengisi lebar card */
+    height: auto; /* Mempertahankan proporsi gambar */
+}
+
+.card h3 {
+    padding: 15px; /* Ruang di sekitar judul */
+    margin: 0; /* Menghapus margin default */
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1{
+    color: ;
+}
+
+
+
+#cardproduct{
+    background-color: rgb(255, 251, 251); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, lightgray, whitesmoke);
+    flex: 1 1 22%; /* Menetapkan lebar card */
+    margin: 10px; /* Jarak antar card */
+    text-align: center;
+    position: relative; /* Agar ikon bisa di posisi absolute */
+    }
+
+    .card-image {
+        width: 100%; /* Memastikan gambar memenuhi lebar card */
+        height: auto; /* Menjaga aspek rasio */
+    }
+
+    .absolute {
+        position: absolute;
+    }
+
+    footer {
+        background-color: white;
+        padding: 40px 0;
+        border-top: 1px solid #e5e5e5;
+    }
+    
+    footer .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    
+    footer a {
+        color: black;
+    }
+    
+    footer a:hover {
+        text-decoration: none;
+    }
+    
+    footer .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 32px;
+    }
+    
+    footer .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    footer .flex .space-x-4 a {
+        margin-left: 16px;
+    }
+    
+    .hero-section {
+        width: 100%;
+        height: 70rem;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .hero-section img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+      }
+
+      video {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+
+      .parallax-image {
+        background-image: url('img/pic3.png'); /* Mengganti dengan path gambar kamu */
+        height: 500px; /* Atur tinggi sesuai kebutuhan */
+        background-attachment: fixed; /* Ini yang memberikan efek parallax */
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover; /* Agar gambar tetap proporsional dalam elemen */
+        background-size: cover;
+    }
+    
+    .parallax video {
+        transform: translateZ(-1px) scale(2); /* Memberikan efek parallax */
+        position: fixed; /* Membuat video tetap saat di-scroll */
+    }
+    
+    .section {
+        height: 200vh; /* Menambah tinggi agar bisa di-scroll */
+        position: relative;
+        z-index: 1;
+    }
+    
+
+      

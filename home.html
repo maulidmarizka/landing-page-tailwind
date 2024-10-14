@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/641df1005c.js" crossorigin="anonymous"></script>
+    <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="header flex justify-between items-center py-7 px-4 bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <div class="flex justify-start space-x-4 ml-6">
+            <a href="/menu.html" class="text-sm text-gray-500 hover:text-black">
+                <i class="fa-solid fa-bars"></i> Menu
+            </a>
+            <a href="/search.html" class="text-sm text-gray-500 hover:text-black">
+                <i class="fa-solid fa-magnifying-glass"></i> Search
+            </a>
+        </div>
+        <div class="flex justify-center">
+            <a class="logo text-4xl font-bold">LOUIS VUITTON</a>
+        </div>
+        <div class="flex justify-end space-x-4">
+            <a href="callus.html" class="text-sm text-gray-500 hover:text-black">Call Us</a>
+            <a href="/whislist.html" class="text-sm text-gray-500 hover:text-black">
+                <i class="fa-regular fa-heart"></i>
+            </a>
+            <a href="/login.html" class="text-sm text-gray-500 hover:text-black">
+                <i class="fa-regular fa-user"></i>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="mt-20 flex justify-center relative">
+        <div class="relative">
+            <img src="img/pic1 (3).png" alt="Landing Page Image" class="size-full cropped-image overlay-image">
+            <div class="absolute inset-0 bg-black opacity-20 p-4 md:p-8 lg:p-12"></div> <!-- Overlay with padding -->
+        </div>
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center content-wrapper">
+            <p class="text-xs">WOMEN</p>
+            <a class="text-4xl" href="#">Flight Mode</a>
+            <a class="text-l underline decoration-solid" href="#">Discover the Collection</a>
+        </div>
+    </div>    
+    <br>
+    <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center content-title mt-10">
+        <h1 class="text-3xl">Explore a Selection of the Maison's Creations</h1>
+    </div>
+    <br>
+    <!-- Grid untuk 4 card per baris -->
+    <div class="flex justify-center mt-20">
+        <div class="container flex space-x-4">
+            <div class="h-96 text-center text-xs">
+                <img src="img/tas1.png" alt="Women's Bags" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Women's Bags</h3>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/dompet1.png" alt="Women's Small Leather Goods" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Women's Small Leather Goods</h3>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/tas2.png" alt="Men's Bags" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Men's Bags</h3>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/dompet2.png" alt="Men's Small Leather Goods" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Men's Small Leather Goods</h3>
+            </div>
+        </div>
+    </div>    
+    <div class="flex justify-center mt-10">
+        <div class="container flex space-x-4">
+            <div class="h-96 text-center text-xs">
+                <img src ="img/sepatu.png" alt="Women's Bags" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Men's Shoes</h3>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/sabuk.png" alt="Women's Small Leather Goods" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Men's Belt</h3>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/sandal.png" alt="Men's Bags" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Women's Shoes</h3>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/parfume.png" alt="Men's Small Leather Goods" class="card-image h-96 w-auto">
+                <h3 class="mt-7">Perfumes</h3>
+            </div>
+        </div>
+    </div>    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="flex flex-col items-center space-y-5">
+        <p class="text-xs">MEN</p>
+        <a class="text-2xl" href="#">Fashion Jewelry</a>
+        <a class="text-l underline decoration-solid" href="#">Discover the Collection</a>
+    </div>
+    
+    <section class="relative h-screen mt-20 flex items-center justify-center overflow-hidden" style="perspective: 1px;">
+        <div class="absolute inset-0 parallax">
+            <video autoplay muted loop class="w-full h-full object-cover">
+                <source src="vid/lv-vid.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>      
+    
+    <div class="flex justify-center mt-10">
+        <div class="container">
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/parfume2.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">Ombre Nomade</h3>
+                <p class="text-gray-500 text-sm">IDR 7.050.000</p>
+            </div>
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/parfume3.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">Imagination</h3>
+                <p class="text-gray-500 text-sm">IDR 5.700.000</p>
+            </div>
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/parfume4.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">LV Lovers</h3>
+                <p class="text-gray-500 text-sm">IDR 5.700.000</p>
+            </div>
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/parfume5.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">Météore</h3>
+                <p class="text-gray-500 text-sm">IDR 5.700.000</p>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <div class="flex flex-col items-center space-y-5">
+        <p class="text-xs">Gifts</p>
+        <a class="text-2xl" href="#">Art of Gifting</a>
+        <a class="text-l underline decoration-solid" href="#">Discover the Selection</a>
+    </div>
+
+    <div class="zoom mt-10 parallax-image">
+        <!-- Gambar akan dijadikan background dari div ini -->
+    </div>
+    
+
+    <div class="flex justify-center mt-10">
+        <div class="container">
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/syal.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">LV Journey Square 90</h3>
+                <p class="text-gray-500 text-sm">IDR 8.300.000</p>
+            </div>
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/anting2.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">Nanogram Enamel Earrings</h3>
+                <p class="text-gray-500 text-sm">IDR 9.600.000</p>
+            </div>
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/tas3.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">Coussin PM</h3>
+                <p class="text-gray-500 text-sm">IDR 79.000.000</p>
+            </div>
+            <div class="h-80 w-80" id="cardproduct">
+                <img src="img/parfume1.png" class="card-image">
+                <div class="absolute top-2 right-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="text-sm mt-8">LV Floragram Bracelet</h3>
+                <p class="text-gray-500 text-sm">IDR 8.300.000</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="absolute left-1/2 transform -translate-x-1/2 text-center">
+        <h1 class="text-3xl">Louis Vuitton Services</h1>
+        <p class="mt-7">Louis Vuitton offers complementary wrapping on all orders, carefully packaged in the Maison's iconic boxes.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="flex justify-center mt-10">
+        <div class="container flex space-x-4">
+            <div class="h-96 text-center text-xs">
+                <img src="img/pic4.png" alt="Women's Bags" class="card-image h-96 w-auto">
+                <h4 class="text-sm mt-2">Services</h4>
+                <h4 class="text-sm underline decoration-solid mt-5">Contact Us</h4>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/pic5.png" alt="Women's Small Leather Goods" class="card-image h-96 w-auto">
+                <h4 class="text-sm mt-2">Art Of Gifting</h4>
+                <h4 class="text-sm underline decoration-solid mt-5">Gifts For Women</h4>
+                <h4 class="text-sm underline decoration-solid mt-5">Gifts For Men</h4>
+            </div>
+            <div class="h-96 text-center text-xs">
+                <img src="img/pic6.png" alt="Men's Bags" class="card-image h-96 w-auto">
+                <h4 class="text-sm mt-2">Personalization</h4>
+            <h4 class="text-sm underline decoration-solid mt-5">Explore</h4>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <br>
+    <br>
+    <footer class="bg-lightgray py-10 border-t mt-20 text-xs">
+        <div class="container mx-auto grid grid-cols-4 gap-8">
+            <!-- Help Section -->
+            <div>
+                <h6 class="mb-4">HELP</h6>
+                <p class="mt-7">Client Services is available from 9am - 7pm at <br> <a href="#" class="underline">0800 1400 800</a>. You can also <a href="#" class="underline">email us</a>.</p>
+                <ul class="mt-4 space-y-4">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Product Care</a></li>
+                    <li><a href="#">Stores</a></li>
+                </ul>                
+            </div>
+    
+            <!-- Services Section -->
+            <div>
+                <h6 class="mb-4">SERVICES</h6>
+                <ul class="space-y-4 mt-7">
+                    <li><a href="#">Repairs</a></li>
+                    <li><a href="#">Personalization</a></li>
+                    <li><a href="#">Art of Gifting</a></li>
+                    <li><a href="#">Download our Apps</a></li>
+                </ul>
+            </div>
+    
+            <!-- About Louis Vuitton Section -->
+            <div>
+                <h6 class="mb-4">ABOUT LOUIS VUITTON</h6>
+                <ul class="space-y-4 mt-7">
+                    <li><a href="#">Fashion Shows</a></li>
+                    <li><a href="#">Arts & Culture</a></li>
+                    <li><a href="#">La Maison</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Foundation Louis Vuitton</a></li>
+                </ul>
+            </div>
+    
+            <!-- Connect Section -->
+            <div>
+                <h6 class="mb-4">CONNECT</h6>
+                <p class="mt-7"><a href="#" class="underline">Sign up</a> for Louis Vuitton emails and receive the latest news from the Maison, including exclusive online pre-launches and new collections.</p>
+                <ul class="mt-4">
+                    <li><a href="#">Follow Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer class="border-t border-gray-300 mt-10 py-4"> <!-- Ubah di sini -->
+            <div class="container mx-auto flex justify-between items-center">
+                <div>
+                    <a href="#" class="underline">Indonesia</a> | <a href="#">Beralih Ke Bahasa Indonesia</a>
+                </div>
+                <div class="text-center">
+                    <h1 class="text-lg">LOUIS VUITTON</h1> <!-- Kecilkan ukuran teks -->
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#">Sitemap</a>
+                    <a href="#">Legal & Privacy</a>
+                </div>
+            </div>
+        </footer>        
+    </footer>
+    
+
+</body>
+
+<script>
+    $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var newWidth = 100 + scroll / 5;
+    $("#zoomImage").css({
+        width: newWidth + "%",
+        transform: "translate(-50%, -50%) scale(" + (newWidth / 100) + ")"
+    });
+});
+</script>
+
+
+</html>
